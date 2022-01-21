@@ -1,0 +1,29 @@
+﻿  源.cpp
+D:\编译原理实践\DFAsimple\源.cpp(80,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(87,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(100,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(112,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(123,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(135,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(146,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(157,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(159,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(173,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(175,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(206,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(213,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(255,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(257,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(278,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(307,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(312,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(321,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(336,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(343,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(354,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(357,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\DFAsimple\源.cpp(119): warning C4715: “find_a_tag”: 不是所有的控件路径都返回值
+D:\编译原理实践\DFAsimple\源.cpp(142): warning C4715: “find_b_tag”: 不是所有的控件路径都返回值
+D:\编译原理实践\DFAsimple\源.cpp(130): warning C4715: “find_va_tag”: 不是所有的控件路径都返回值
+D:\编译原理实践\DFAsimple\源.cpp(153): warning C4715: “find_vb_tag”: 不是所有的控件路径都返回值
+  DFAsimple.vcxproj -> D:\编译原理实践\DFAsimple\Debug\DFAsimple.exe

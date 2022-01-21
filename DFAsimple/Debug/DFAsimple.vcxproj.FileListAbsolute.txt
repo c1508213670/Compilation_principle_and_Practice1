@@ -1,0 +1,2 @@
+D:\编译原理实践\DFAsimple\Debug\DFAsimple.exe
+D:\编译原理实践\DFAsimple\Debug\DFAsimple.pdb

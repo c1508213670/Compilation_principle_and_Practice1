@@ -1,0 +1,2 @@
+D:\编译原理实践\MYT算法\Debug\MYT算法.exe
+D:\编译原理实践\MYT算法\Debug\MYT算法.pdb

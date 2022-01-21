@@ -1,0 +1,6 @@
+﻿  源.cpp
+D:\编译原理实践\MYT算法\源.cpp(36,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\MYT算法\源.cpp(204,13): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\MYT算法\源.cpp(205): warning C4715: “createtuple”: 不是所有的控件路径都返回值
+D:\编译原理实践\MYT算法\源.cpp(161): warning C4172: 返回局部变量或临时变量的地址: p
+  MYT算法.vcxproj -> D:\编译原理实践\MYT算法\Debug\MYT算法.exe

@@ -1,0 +1,2 @@
+D:\编译原理实践\NFAtoDFA\Debug\NFAtoDFA.exe
+D:\编译原理实践\NFAtoDFA\Debug\NFAtoDFA.pdb

@@ -1,0 +1,16 @@
+﻿  源.cpp
+D:\编译原理实践\NFAtoDFA\源.cpp(79,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(92,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(109,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(132,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(134,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(147,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(167,24): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(218,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(222,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(224,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(245,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(250,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(259,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实践\NFAtoDFA\源.cpp(274,20): warning C4018: “<”: 有符号/无符号不匹配
+  NFAtoDFA.vcxproj -> D:\编译原理实践\NFAtoDFA\Debug\NFAtoDFA.exe

@@ -1,0 +1,138 @@
+E -> E + T
+E -> T
+T -> T * F | F
+F -> ( E )
+F -> id
+
+E -> T E1
+E1 -> + T E1 | e
+T -> F T1
+T1 -> * F T1 | e
+F -> ( E ) | id
+
+S -> T
+T -> a B d
+T -> e
+B -> T b
+B -> e
+
+E -> E + T
+E -> T
+T -> T * F
+T -> F
+F -> ( E )
+F -> id
+
+def SLR_table(C,str1):
+    lst=[]
+    FFls=[]
+    Fls1=[]
+    Followls=Follow(str1)
+    Allls=[]
+    table=[]
+    with open(str1,'r',encoding='utf8') as f2:
+        a=f2.readlines()
+    for i in a:
+        ls=i.split()
+        lst.append(ls)
+        if ls[0] not in FFls:
+            FFls.append(ls[0])
+        lst=d_gram(lst)
+    start=lst[0][0]
+    Fls1=Fls(lst,FFls)
+    Allls=all_dollar_list(str1)
+    for j in range(len(C)):
+        tem=[]
+        for i in range(len(Allls)):
+            tem.append("err")
+            # print("err",end="\t")
+        table.append(tem)
+
+    for i in C:
+        for j in i:
+            tup=where_dot(j,str1)
+            ff=C.index(i)
+            if tup[0]==3 and tup[1]!=start:
+                ls1=[]
+                for q in Followls:
+                    if q[0]==tup[1]:
+                        ls1=q[1]
+                        break
+                for q in ls1:
+                    ft=Allls.index(q)
+                    table[ff][ft]='r'+str(tup[2])
+            elif tup[0]==1 or tup[0]==2:
+                if m_contain(C,GOTO([j],tup[1],str1))!=-1:
+                    f=m_contain(C,GOTO([j],tup[1],str1))
+                    if tup[0]==1 and f:
+                        ft=Allls.index(tup[1])
+                        table[ff][ft]="s"+str(f)
+                    if tup[0]==2 and f:
+                        ft=Allls.index(tup[1])
+                        table[ff][ft]=f
+            elif tup[0]==3 and tup[1]==start:
+                ft=Allls.index('$')
+                table[ff][ft]='acc'
+    return table,Allls,C,lst
+
+
+if i[j] in Fls and (len(i)-2)==1:
+                    m_count+=3
+                    lss=ls[:]
+                    for w in range(len(lss)):
+                        if lss[len(lss)-1-w]==1:
+                            m_count+=3
+                            ls.pop()
+                        else:
+                            ls[len(ls)-1]-=1
+                            m_count+=3*ls[len(ls)-1]
+                            break
+                    t=1
+        if(t==0):
+            m_count+=1
+        ls.append(con)
+
+ res=[]
+    temp=list(reversed(resls))
+    resls=temp
+    res.append('[')
+    res.append(resls[0][0])
+    res.append(']')
+    m_count=0
+    ls=[]
+    t=0
+    print(resls)
+    for i in resls:
+        t=0
+        con=0
+        print(i)
+        for j in range(len(i)):
+
+            if j>=2:
+                res.insert(len(res)-1-m_count,"[")
+                res.insert(len(res)-1-m_count,i[j])
+                res.insert(len(res)-1-m_count,"]")
+                con+=1
+                if i[j] in Fls and (len(i)-2)==1:
+                    m_count+=3
+                    lss=ls[:]
+                    print(ls)
+                    for w in range(len(lss)):
+                        if lss[len(lss)-1-w]==1:
+                            m_count+=3
+                            ls.pop()
+                        else:
+                            ls[len(ls)-1]-=1
+                            m_count+=3*ls[len(ls)-1]
+                            break
+                    t=1
+        if(t==0):
+            m_count+=1
+        ls.append(con)
+
+        print(ls)
+        print(m_count)
+        print(res)
+    return res
+    # resstr="".join(res)
+    # print(resstr)

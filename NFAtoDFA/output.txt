@@ -1,0 +1,7 @@
+A   B   C   
+B   B   D   
+C   B   C   
+D   B   E   
+E   B   C   
+start state:A,B,C,D,
+accepting states:E,
